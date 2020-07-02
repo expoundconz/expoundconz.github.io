@@ -1,27 +1,61 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Expound</title>
-		<link rel="stylesheet" type="text/css" href="index.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-	        	<li><a href="/contact">Contact</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Welcom to Expound Coding.</h1>
-    		</div>
+
+<head>
+	<title>Expound</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/contact">Contact</a></li>
+			<li><a href="/blog">Blog</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+		<div class="blurb">
+			<h1>Welcom to Expound Coding.</h1>
+			<p>CSS-Selector tutorial</p>
 		</div>
-		<footer>
-    		<ul>
-        		<li><a href="https://expound.futirium.com/">Expound Futirium</a></li>
-			</ul>
-		</footer>
-	</body>
+		<p class="boxed-element" id="id-1">I have an ID.</p>
+		<p class="colored-box">I have a class.</p>
+		<p class="boxed-element" test-id="testid-1">I have test-id attribute.</p>
+		<p class="colored-box boxed-element coloredFont">I have many classes</p>
+		<div class="boxed-element">
+			<p class="boxed-element" test-id="testid">I am div with attribute testid</p>
+			<p class="colored-box boxed-element" test-id="testid">I am a p with attribute testid</p>
+		</div>
+		<div class="boxed-element">
+			<p class="boxed-element" test-id="css-selector-testid-1">My test-id contains text 'css-selector'</p>
+			<p class="colored-box boxed-element" test-id="css-selector-testid-2">My test-id contains text 'css-selector'
+			</p>
+		</div>
+		<div class="boxed-element">I have children
+			<p class="boxed-element">I am the first child</p>
+			<label class="colored-box boxed-element">I am the second child</label>
+			<p class="boxed-element">I am the third child </p>
+			<p style="padding-left: 50px;" class="coloredFont">I am a grand child</p>
+			</p>
+			<p class="colored-box boxed-element">I am the fourth child</p>
+			<p class="boxed-element">I am the fifth child</p>
+			<p class="colored-box boxed-element">I am the last child</p>
+		</div>
+		<div class="boxed-element">
+			<input disabled=true class="colored-box boxed-element">I am a disabled Input</input>
+		</div>
+		<div class="boxed-element">
+			<input type="radio" checked=true class="colored-box boxed-element">I am a checked radio button</p>
+		</div>
+
+	</div>
+	<footer>
+		<ul>
+			<li><a href="https://expound.futirium.com/">Expound Futirium</a></li>
+		</ul>
+	</footer>
+</body>
+
 </html>

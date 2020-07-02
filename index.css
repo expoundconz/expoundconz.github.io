@@ -28,6 +28,13 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+
+label {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color:olivedrab;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -40,4 +47,18 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.boxed-element {
+    margin: 20px;
+    padding : 5px;
+}
+
+.colored-box {
+    margin-left: 25px;
+    background-color: lightblue;
+}
+
+.coloredFont {
+    color: mediumblue;
 }
